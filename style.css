@@ -1,0 +1,290 @@
+header{
+    text-align: center;
+}
+.parent-dice{
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    gap: 278px;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color:aquamarine;
+    position:absolute;
+}
+.dice-1{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.dice-1,
+.dice-2,
+.dice-3,
+.dice-4,
+.dice-5,
+.dice-6{
+    box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.60);
+}
+.circle-1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 17%;
+    left: 19%;
+   
+    
+    
+}
+.dice-2{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.circle-2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left:49%;
+   
+}
+.circle-3{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    
+}
+.dice-3{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+ .circle-4{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 11%;
+    left: 85%;
+   
+    
+} 
+ .circle-5{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top:18%;
+    left: 89%;
+    
+} 
+ .circle-6{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 24%;
+    left: 93%;
+  
+    
+} 
+.dice-4{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+.circle-7{
+   width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 71%;
+    left: 15%;
+  
+    
+}
+.circle-8{
+   width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 71%;
+    left: 23%;
+  
+    
+}
+.circle-9{
+   width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 84%;
+    left: 15%;
+  
+    
+}
+.circle-10{
+   width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+position: absolute;
+    top: 84%;
+    left: 23%;
+  
+    
+}
+
+ .dice-5{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+.circle-11{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+ position: absolute;
+    top: 71%;
+    left: 49%;
+   
+}
+.circle-12{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+ position: absolute;
+    top: 71%;
+    left: 57%;
+   
+}
+.circle-13{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+ position: absolute;
+    top: 84%;
+    left: 49%;
+   
+}
+.circle-14{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+ position: absolute;
+    top: 84%;
+    left: 57%;
+   
+}
+.circle-15{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 78%;
+    left: 53%;
+}
+
+.dice-6{
+border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: 50px;
+    display: grid;
+}
+.circle-16{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 78%;
+    left: 83%;
+}
+.circle-17{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 83%;
+}
+.circle-18{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 83%;
+}
+.circle-19{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 91%;
+}
+.circle-20{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 78%;
+    left: 91%;
+}
+.circle-21{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 91%;
+}
